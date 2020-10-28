@@ -3,7 +3,9 @@
     HashMap allows one null key and multiple null values whereas Hashtable doesn't allow any null key or value.
     
     
-2) 
+2) How to iterate in HashMap ?
+
+
     
    
 
