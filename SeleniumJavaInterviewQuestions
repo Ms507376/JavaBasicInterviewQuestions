@@ -1,0 +1,10 @@
+1) Difference between Hashtable and Hashmap ?
+    HashMap is non synchronized.It is not-thread safe and can't be shared between many threads without proper synchronization code whereas Hashtable is synchronized.
+    HashMap allows one null key and multiple null values whereas Hashtable doesn't allow any null key or value.
+    
+    
+2) 
+    
+   
+
+
