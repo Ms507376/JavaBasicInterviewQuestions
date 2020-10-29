@@ -1,3 +1,57 @@
+
+1)  What is the Collection framework in Java?
+     Collection Framework is a combination of classes and interface, which is used to store and manipulate the data in the form of objects.
+     
+2)  What are the interfaces present in collection ?
+    List ,Set and Map these are the interfaces in java .
+    List and Set interface  Extends Collection interface But Map does not extend collection interface as it is based on key value pair.
+    
+3) which All classes implement the List interface?
+    ArrayList,Vector and LinkedList these  three classes implements the List Interface.All these three classes provide an ordered collection of objects and   
+    allow duplicate values.
+    
+    Arraylist : It is a class which implements the List interface .
+              : Fast iteration and fast random access( becuase it works at the index basis) .
+              : It is ordered by index but not sorted in nature.
+              : It allows duplicate element.
+              : It's better for storing and accessing the data.
+              
+              Synatx :
+              ArrayList<String> ar = new ArrayList<String>();
+              ar.add(" Moni ");
+              
+              // Traversing in arraylist 
+              Iterator itr=ar.iterator();
+              while(itr.hasNext())
+              {
+                System.out.println(itr.next());
+              }
+              
+   Vector   :   It's same as arrayList the only difference is method of vector are ( synchronized and thread safe).
+            :   we should prefer Arraylist over Vector if thread safety is not required.
+              
+   LinkedList : It is a class which implements the List interface .  
+              : Ordered by index same as arraylist .
+              : It is double linked to each other because of which we can add / remove the element from both side(Because of this reason iteration is little bit slow).
+              : Insertion and deletion is much more faster than arraylist.
+               
+              
+4 )    Which all classes implement set interface ?
+       Hashset ,TreeSet ,LinkedHashSet these three classes implements the set interface.
+       Set it doesn't permit duplicate value.
+       
+       TreeSet :It is a class which implements set interface.
+               : 
+       
+       
+       
+       
+              
+              
+              
+              
+         
+
 1) Difference between Hashtable and Hashmap ?
     HashMap is non synchronized.It is not-thread safe and can't be shared between many threads without proper synchronization code whereas Hashtable is synchronized.
     HashMap allows one null key and multiple null values whereas Hashtable doesn't allow any null key or value.
