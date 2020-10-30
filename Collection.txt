@@ -40,24 +40,68 @@
        Hashset ,TreeSet ,LinkedHashSet these three classes implements the set interface.
        Set it doesn't permit duplicate value.
        
-       TreeSet :It is a class which implements set interface.
-               : 
-       
-       
-       
-       
-              
-              
-              
-              
-         
+       TreeSet      :It is a class which implements set interface
+                    :It is a sorted  and ordered set by default order will be ascending order.
+                    : retrieval of data  and access is faster .
+       HashSet      :It is a class which implements set interface.
+                    :It is unsorted and unordered set .
+       LinkedHashSet:It is a class which implements set interface.
+                    :It is ordered version of HashSet.
+                    
+5) List and Set difference ?
+   List allows duplicate element but set doesn't allow the duplicate element.
+   List allows as many as null element but Set allows only one null element.
+   
+6) List all classes of Map interface .
+   HashMap,Hashtable,TreeMap.
+   Hashmap : It is unsorted and unorderd Collection.It stores data in Key-Value pair.
+           : HashMap allows only one null key and multiple null values
+           : HashMap is non synchronized and It is not-thread safe.
+           
+           Syntax : 
+           HashMap<Integer,String> hm = new HashMap<Integer,String>(); 
+           
+           for (Map.entry<Integer ,String> m : hm.entrySet() )
+                 {
+                    System.out.println("Key = " + m.getKey() + ",Value = " + m.getValue());
+                 }                   
 
-1) Difference between Hashtable and Hashmap ?
-    HashMap is non synchronized.It is not-thread safe and can't be shared between many threads without proper synchronization code whereas Hashtable is synchronized.
-    HashMap allows one null key and multiple null values whereas Hashtable doesn't allow any null key or value.
+7) Difference between Hashtable and Hashmap ?
+    HashMap is non synchronized and It is not-thread safe  whereas Hashtable is synchronized and thread safe.
+    HashMap allows only one null key and multiple null values whereas Hashtable doesn't allow any null key or value.
     
+8) Difference between list and ArrayList ?
+   List is an iterface and Arralist is a class which implements the List interface.
+   In List Length is fixed and we can not resize it but in Arraylist length is dynamic in nature an we can resize it.
+   
+9) Arrays and arraylist difference ?
+    Arrays are Created of fixed size  whereas ArrayList is not of fixed size.
+    Arrays size can not be incremented or Decremented but arraylist size we can increment or decrement.
+    Arrays are multidimensional but Arraylist is one dimensional.
+    Once array is created we can't add / remove the element but in arrayList we can add/remove the element.
+
     
-2) How to iterate in HashMap ?
+   
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     
