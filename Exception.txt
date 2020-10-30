@@ -1,1 +1,31 @@
+1) What is Exception ?
+   An exception is an event that occurs during the execution of a program that disrupts the normal flow of program.
+   
+2) Difference between error and exception ?
+    Error and Exception Both are subclasses of throwable class.
+    Error    : Error mostly occur at Runtime( Unchecked type) 
+               e.g (System crash error and Out of memory error) 
+    
+    Exception:Exceptions are the problems which occur and Compile time and runtime both.
+              Nullpointer exception, Arithmetic Exception.
+              
+3) Type oF Exception ?
+   Checked Exception   : checked exceptions are checked at compile-time
+   Eg. ClassNotFoundException, IOException, SQLException,FileNotFound Exception
+   
+   Unchecked Exception :Unchecked exceptions are checked at runtime.
+   E.g  ArrayIndexOutOfBoundsException,Airthmetic Exception,NULL pointer exception.
+      
+4)      
+    
+
+
+
+
+
+
+
+
+
+
 
