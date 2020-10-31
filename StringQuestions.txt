@@ -1,1 +1,89 @@
 
+1) What is String in java ?
+   String  it's not a keyword .It is a final class in java.lang package which is used to represent set of characters in java.
+   
+2) In How many ways we can create string object in Java ?
+   We can create string object in two ways.
+   a) Using Literals
+        String  s="abc";
+   b) Using New operator 
+       String s= new String("abc");
+       
+3) what is difference between  object creation using literals and new operator ?
+    Literals     :when we create String object using literals ,JVM first checks the object in string constant pool with same content
+                  and is it's there in constant pool then returns the refernce of that object and if it is not there then creates new object.
+                   
+    new operator :When we create String object using new() operator, it always create a new object in heap memory.
+    String Constant pool : It is memory space in heap memory specially alloacted to store string created using Literal.
+    
+ 4) What is string ,String Buffer and String Builder ?
+    String        : It is final class in java .
+                  : It's immutable in nature  .
+           
+    String Buffer : It is a final class in java.
+                  : It is mutable in nature.
+                  : It is thread safe.
+    String Builder: It is a final class in java.
+                  : It is mutable in nature.
+                  : It is not  thread safe.
+    
+     out of all three string buffer is best as it mutable in nature and also thread safe.
+     
+ 5)  what do you mean by immutable and mutable in nature ?
+     Immutable ( String) : Immutable object means they are constant, we can't modify them once they are created.If we try to modify them 
+                           a new string object will be created with modified content and will cause memory issues and performance issue 
+                           because of lots of string modifications.
+                           
+      Mutable(String Buffer,string Builder) :Mutable means we can perform modification( Comparison /Concatenation ) on them.
+     
+ 6)  what is difference between equals and "==" method ?
+      Main difference between .equals() method and == operator is that one is method and other is operator.
+      "==" operator : It is used for address comparison( Reference Comparison)
+      equals        : equals() method for content comparison.
+        String s1 = new String("HELLO"); 
+        String s2 = new String("HELLO"); 
+        System.out.println(s1 == s2);  // False ( address will be different)
+        System.out.println(s1.equals(s2)); // True ( Content Comparison)
+        
+ 7)  How to convert string to integer ?
+      we can convert string to Integer using parseInt() method.
+      String s="2015";
+      int i =Integer.parseInt(s);
+      System.out.println(i);
+      
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+     
+     
+     
+     
+     
+     
+     
+     
+     
+           
+           
+       
+       
+       
+       
+       
+       
+       
+       
+     
