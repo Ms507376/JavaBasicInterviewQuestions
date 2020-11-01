@@ -1,0 +1,39 @@
+ What is method overloading in java ?
+  Method overlaoding : It is process  of declaring two methods with same but but different method signature.
+                     : It is performed within same class.
+                     : No of arguments should be different / data type should be differrnt.
+                     : Method Overloading ( Compile time Polymorphism).Overloaded method calls are resolved at compile time.
+   Example :  class Youspeaking
+                { 
+         	void talk(Stranger obj) 
+	               { 
+		              sysout("Hi, my day was great!"); 
+               	} 
+	        void talk(Beloved obj) 
+	              { 
+		              sysout("Hi, my day was great! You won't believe what happened today! Blah!Blah!Blah!Blah!Blah!Blah!Blah!Blah!Blah!Blah! "); 
+	              } 
+            }                 
+                     
+    Method Overriding : Method overriding ia the process of defining same method with different code in different class.
+                      : Overriding is based on runtime polymorphism and method calls are resolved at runtime.
+                      : No of arguments should be same.Is - A relationship.
+                      
+                      
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
