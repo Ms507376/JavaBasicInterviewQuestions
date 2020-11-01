@@ -1,1 +1,100 @@
 
+1 ) What is Interface in Java ?
+     An Interface in Java is  blueprint of a class .It has static Constants and abstract methods.
+     It is used to achieve abstraction and multiple inheritance in java.
+     Syntax :
+     Interface < Interface name>
+     {
+     
+     }
+  
+2) Can we achieve multilpe inheritance by using interface?
+    yes , we can achieve multiple inheritance through the interface in java but it is not possible through class because java doesn't support 
+    multiple inheritance through class.
+    
+ 3) Can we create an object of interface ?
+     No ,We can not create an object of Interface.
+     
+ 4) Can We declare interface as Final ?
+    No ,We can not declare the interface as final because of implementation of Interface is provided by another class.
+    If we make interface as final it will throw compile time error .
+    
+5 ) Which keywords java compiler add before interface fields and methods ?
+     In Interface ,Java Compiler adds public ,static and final Keywords before field or data members .
+     In Interface , All methods are public and abstract.
+   
+ 6) Can an Interface extend another interface ?
+     Yes ,an interface can extend another Interface .
+     
+ 7) Can an interface extend a class ?
+     No,A class can implement an Interface but interface can not extend the class.
+    
+  8) Can we Put Static method in Interface ?
+     No ,We can not put static methods in interfaces because all the method are By defalut Public and abstract .
+     
+  9) Can we declare the interface with abstract Keywords?
+     yes , we can declare abstract keyword with interfaces but there is no need to write abstract keyword with interfaces because
+     all interfaces are abstract by default .
+   
+  10) Can we declare a constructor in the interface ?
+      No, We can not do .Whenever a constructor is called object is created .
+      We can not create object of Interface .
+      
+  11) Can We Change the value of a field in interface after inititalization ?
+      No, Because all the fields of the interface are by default final .
+      
+  12 ) Difference between abstract class and Interface ?
+       Abstract Class : Abstract Class can have abstract method and Non abstract method.
+                      : Abstract class doesn't support multilpe inheritance.
+                      : Abstract Class can have final ,Non-final ,static and Non static variables.
+                      : Abstract class can provide implemenation of interface .
+                      : Abstract class can extends another java class and Can implement mulitple java Interfaces.
+                      
+       Interface      : Interface can have only abstract method .
+                      : Interface supports multiple inheritance.
+                      : Interace has only static and final variable and abstract method .
+                      : An Interface can Extend another Interface .
+                      
+  
+  
+  
+     
+    
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
