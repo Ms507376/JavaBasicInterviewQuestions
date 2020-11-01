@@ -1,5 +1,5 @@
- What is method overloading in java ?
-  Method overlaoding : It is process  of declaring two methods with same but but different method signature.
+1)  What is method overloading in java ?
+  Method overloading : It is process  of declaring two methods with same but but different method signature.
                      : It is performed within same class.
                      : No of arguments should be different / data type should be differrnt.
                      : Method Overloading ( Compile time Polymorphism).Overloaded method calls are resolved at compile time.
@@ -19,7 +19,83 @@
                       : Overriding is based on runtime polymorphism and method calls are resolved at runtime.
                       : No of arguments should be same.Is - A relationship.
                       
-                      
+ 2)   Why is Method overloading not possible by changing the return type in Java?
+        Method overloading it is not psossible by changing return type of program due to the ambiguity ( Here,which method to call ambiguity).
+       class adder
+       static int add(int a, int b)
+       {
+          return a + b;
+       }
+       
+       static double add( int a,int b)
+       {
+          return a + b ;   
+       }
+     }
+     
+  3 ) Differnece between method overloading and overriding ?
+      Overloading : Within same class.
+                  : Compile time Polymorphism.
+		  : Static method can be overloaded.
+		  : Argument List should be different.
+      Overriding  :In Different class.
+                  : Run time Polymorphism.
+		  : Static method can not be overrided.
+		  : Argument List should be some.
+		  
+  4 ) Can we overload static method in java ?
+      yes ,it's possible to overload static method in java.
+      we can define as many as static method  within same class until all of them have different method signature(Means Either No. of arguments should
+      be different or data type of arguments should be different) .
+      
+  5) Can We override static method in Java ?
+     We can not override static method in java as Static method are resolved at compile time But override is runtime activity .
+  
+  6) Can we override private method in java ?
+     No,we can not override private method in java as it belongs to  object class and it is not visible outside of calss and we can not inherit them.
+  
+  7) Can we override a non static method as static in Java ?
+     No ,it's not possible to define a non static method of same name as static method in parent class ,It will give compile time error in Java.
+     
+  8) Can we override a constructor in Java?
+     No ,we can not override a constructor in java beacuse they are not inherited .
+     We Can overload constructor( Default constructor / Parameterized Constructor ) but we can not override them .
+     
+ 9) Can we override final method in java ?
+    No ,we can not override final method in java .If we try to override the final method in Java it will throw compile time error .
+    
+ 10 ) Can we overload or override main method in java ?
+      Main method is static method in java and it follows the rule associated with static method so  Main method can be overloaded but can not be overrided.
+      
+ 11 ) How to call satic method and non static method in java ?
+       Static method     ---> Classname.method name 
+       Non Static Method ---> we create object of a calss then call the method
+       
+      
+      
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+      
+      
+		  
+      
+      
+      
+      
+       
+       
+      
+      
+      
+      
                      
                      
                      
