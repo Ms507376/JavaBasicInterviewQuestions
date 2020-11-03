@@ -54,7 +54,7 @@
                              :We create an object of class and then call the method of the class.
                              
    Run time polymorphism   :In Run time polymorphism ,call to the overriden method is resolved at runtime.
-                           :Overriding is a way to achieve run time polymorphism.
+                           :Overriding is a way to achieve run time polymorphism.(dynamic binding)
                            :It provides slower execution as type of an object is determined at runtime.
                            :We call sub class method using super class reference variable in run time polymorphism.
                            
@@ -90,6 +90,59 @@
     
 9) Can we override private method in java ?
     No ,we can not override a private method in java because private method is not inherited by subclass in java.
+    
+10) what is super and this keyword in java ?
+     Super : Super keyword always points to parent class contexts.
+           : Super keyword is always used to invoke  parent class instance variable/method/constructor.
+           : Super() is called in class constructor implicitly by the compiler if there is no super or this.
+           
+     This : This Keyword always points to current class context.
+          : Super() and This() must be the first statement inside constructor otherwise compiler will throw an error.
+          : super() and This() we can not use together as either one of them should be the first statement.
+          
+11) What is final ?
+     Final is a keyword .
+     If we are defining class/ variable/method as final we can't inherit them  or we can not use in other class.
+     final variable:if variable is final ,we can not change its value.
+     
+12) If we make any class final and inherit them into other class what will happen ?
+     ( it will throw compile time error) 
+     
+13) Can we declare main method as final ?
+    yes, we can .
+    public static final void main( string[],args).
+    
+14) Can we declare constructor as final ?
+    No ,It will throw compile time error if we are defining as final.
+
+
+
+
+    
+          
+           
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
     
