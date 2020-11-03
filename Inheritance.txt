@@ -1,1 +1,86 @@
 
+1) What is inheritance ?
+   Inheritance is an object oriented feature which allows a class to inherit method and data from other class or we can say accquiring 
+   properties of parent class in child class.
+   
+   Use of Inheritance :
+   For Method Overriding / Code Reusablity.
+   
+   
+2) What are different types of inheritance supported by Java ?
+   Java supports single inheritance , Multi-level inheritance , Hierarchical inheritance.
+    Multiple inheritance is not supported by class ,it can be implemented using interface.
+    
+3) Why Mutiple inheritance is not supported by Java?
+   Multiple inheritance is not supported by java.
+   Consider a scenario where A,B and C are three classes. The C class inherits  A and B class. If A and B classes have Same Method and 
+   we call it from Child class object ,there will be ambiguity to call the method of A or B class.
+   Class A 
+   {
+      void msg ()
+      {
+        System.out.println( " run A"); 
+      }
+   }
+   
+   Class B
+   {
+     void msg () 
+     { 
+         System.out.println( " run B");         
+     }   
+   }
+   
+   Class C extends A,B 
+   {
+      C obj = new C();
+      obj.msg(); // while Calling method of class A and B there will be ambiguity which method should be called 
+   }
+  
+  
+4) What is  Inheritance , Encapsulation and abstraction with real time examples?
+   Inheritance   :Accquiring properties of Parent Class in Child class is called Inheritance.( we inherit properties from our ancestor).
+   Encapsulation :Wrapping of data and method together in a single unit is called Encapsulation.
+                 :It is used to hide internal details of class.
+   Abstraction   :Process of hiding the implementation details from users.Only Functionality will be provided to users.
+                  e.g ( ATM (We enter 4 digit pin ) while withdrawing the money but we don't know the implemenation ).
+                  
+5) What is polymorphism ?
+   Polymorphism in Java is a concept by which we can perform a single action in different way.
+   Compile time polymorphism ,Run time polymorphism.
+   Compile time polymorphism :
+   
+   
+   
+   
+   
+   
+ 
+
+   
+      
+   
+   
+   
+   
+
+
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
