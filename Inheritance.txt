@@ -48,7 +48,98 @@
 5) What is polymorphism ?
    Polymorphism in Java is a concept by which we can perform a single action in different way.
    Compile time polymorphism ,Run time polymorphism.
-   Compile time polymorphism :
+   Compile time polymorphism :In Compile time polymorphism,Call to a method is resolved at compile time. 
+                             :Overloading is a way to achieve compile time polymorphism.(Static binding) 
+                             :It provides fast execution as type of an object is determined at compile-time.
+                             :We create an object of class and then call the method of the class.
+                             
+   Run time polymorphism   :In Run time polymorphism ,call to the overriden method is resolved at runtime.
+                           :Overriding is a way to achieve run time polymorphism.
+                           :It provides slower execution as type of an object is determined at runtime.
+                           :We call sub class method using super class reference variable in run time polymorphism.
+                           
+                           Class Bike
+                           {
+                             Void run()
+                           {
+                              System.out.println(" running Bike"); 
+                           }
+                           
+                           }
+                           
+                           Class splendour extends Bike{
+                           void run()
+                            {
+                              System.out.println(" running Splendour"); 
+                            }
+                           }
+           public static void main() 
+           {
+             Bike b = new splendour();
+             b.run() ;           
+           }
+                           
+6)  Can we achieve runtime polymorphism by data members ?
+     Runtime polymorphism is not possible by data members we can only achieve by method.
+     
+7)  Can we override static method in java ?
+    No,we can not override a static method in java becuase it's resolved at compile time.
+    
+8 ) Can we overload a static method in java ?
+    yes ,we can overload static method in java by defining different no. of arguments and different method signature.
+    
+9) Can we override private method in java ?
+    No ,we can not override a private method in java because private method is not inherited by subclass in java.
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                             
+   
+                             
+   
    
    
    
