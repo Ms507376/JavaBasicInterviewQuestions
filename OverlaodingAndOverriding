@@ -36,12 +36,12 @@
   3 ) Differnece between method overloading and overriding ?
       Overloading : Within same class.
                   : Compile time Polymorphism.
-		  : Static method can be overloaded.
-		  : Argument List should be different.
+		          : Static method can be overloaded.
+		          : Argument List should be different.
       Overriding  :In Different class.
                   : Run time Polymorphism.
-		  : Static method can not be overrided.
-		  : Argument List should be some.
+		          : Static method can not be overrided.
+		          : Argument List should be some.
 		  
   4 ) Can we overload static method in java ?
       yes ,it's possible to overload static method in java.
