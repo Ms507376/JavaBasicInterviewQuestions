@@ -3,7 +3,6 @@
    String  it's not a keyword .It is a final class in java.lang package which is used to represent set of characters in java.
    Immutable string increases security ,as they can not be modified once they are created.So ,we can use them to store sensitive data.
    
-
 2) In How many ways we can create string object in Java ?
    We can create string object in two ways.
    a) Using Literals
