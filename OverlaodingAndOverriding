@@ -1,5 +1,5 @@
 1)  What is method overloading in java ?
-  Method overloading : It is process  of declaring two methods with same but but different method signature.
+  Method overloading : It is process  of declaring two methods with same name but different method signature.
                      : It is performed within same class.
                      : No of arguments should be different / data type should be differrnt.
                      : Method Overloading ( Compile time Polymorphism).Overloaded method calls are resolved at compile time.
