@@ -69,7 +69,26 @@
       
  11 ) How to call satic method and non static method in java ?
        Static method     ---> Classname.method name 
+
+        public class MathUtils {
+    // Static method
+    public static int calculateSum(int a, int b) {
+        return a + b;
+    }
+
+    public static void main(String[] args) {
+        // Calling the static method using the Class Name
+        int result = MathUtils.calculateSum(10, 20);
+        System.out.println("Sum is: " + result); // Output: Sum is: 30
+    }
+}
+
+
+
        Non Static Method ---> we create object of a calss then call the method
+       // Syntax:
+        ClassName objectName = new ClassName();
+        objectName.nonStaticMethodName(arguments);
        
       
       
