@@ -6,7 +6,7 @@
     Error    : Error mostly occur at Runtime( Unchecked type) 
                e.g (System crash error and Out of memory error) 
     
-    Exception:Exceptions are the problems which occur and Compile time and runtime both and can be handled by using try catch block .
+    Exception:Exceptions are the problems which occur at Compile time and runtime both and can be handled by using try catch block .
               Nullpointer exception, Arithmetic Exception.
               
 3) Type oF Exception ?
