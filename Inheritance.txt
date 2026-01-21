@@ -42,6 +42,7 @@
    Inheritance   :Accquiring properties of Parent Class in Child class is called Inheritance.( we inherit properties from our ancestor).
    Encapsulation :Wrapping of data and method together in a single unit is called Encapsulation.
                  :It is used to hide internal details of class.
+                  e.g. A bank account system.The internal data and logic are bundled within a single class and access is controlled to prevent the misuse.
    Abstraction   :Process of hiding the implementation details from users.Only Functionality will be provided to users.
                   e.g ( ATM (We enter 4 digit pin ) while withdrawing the money but we don't know the implemenation ).
                   
