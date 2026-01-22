@@ -1,11 +1,13 @@
 
+
 1 ) What is Interface in Java ?
      An Interface in Java is  blueprint of a class .It has static Constants and abstract methods.
      It is used to achieve abstraction and multiple inheritance in java.
      Syntax :
      Interface < Interface name>
      {
-     
+       int MAX_SPEED = 100; static constant ( Value is static can not be changed)
+       public abstract void stopEngine(); ( method without body -abstract method)
      }
   
 2) Can we achieve multilpe inheritance by using interface?
